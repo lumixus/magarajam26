@@ -1,16 +1,19 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Socket : MonoBehaviour
 {
 
     public bool isConnected = false;
-    public CircleCollider2D circleCollider;
+
+    public UnityEvent<LineSocket> OnConnect;
+    public BoxCollider2D boxCollider;
     public LineSocket connectedSocket = null;
 
     void Awake()
     {
-        circleCollider = GetComponent<CircleCollider2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     public void ConnectSocket(Vector2 position, LineSocket socket)
@@ -19,12 +22,14 @@ public class Socket : MonoBehaviour
         isConnected = true;
         transform.position = position;
         connectedSocket = socket;
+
+        OnConnect?.Invoke(socket);
     }
 
     public void OnDrop()
     {
         List<RaycastHit2D> hits = new List<RaycastHit2D>();
-        circleCollider.Cast(Vector2.zero, hits);
+        boxCollider.Cast(Vector2.zero, hits);
 
         if (hits.Count > 0)
         {

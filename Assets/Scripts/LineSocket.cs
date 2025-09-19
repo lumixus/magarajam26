@@ -2,25 +2,33 @@ using UnityEngine;
 
 public class LineSocket : MonoBehaviour
 {
-    public SpriteRenderer sr;
+    public SpriteRenderer LightSR;
+    public Sprite UsableLightSprite;
+    public Sprite ActiveLightSprite;
+    public Sprite DefaultLightSprite;
 
     public bool isConnected = false;
 
     void Start()
     {
-        sr = GetComponent<SpriteRenderer>();
+        LightSR = GetComponent<SpriteRenderer>();
     }
 
     public void ConnectSocket()
     {
         isConnected = true;
-        sr.color = Color.black;
+        LightSR.sprite = ActiveLightSprite;
+    }
+
+    public void MarkAsUsable()
+    {
+        LightSR.sprite = UsableLightSprite;
     }
 
     public void DisconnectSocket()
     {
         isConnected = false;
-        sr.color = Color.white;
+        LightSR.sprite = DefaultLightSprite;
     }
 
 }

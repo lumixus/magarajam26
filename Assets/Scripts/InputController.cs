@@ -1,12 +1,11 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class InputController : MonoBehaviour
 {
 
     public static InputController instance;
     public InputSystem_Actions inputActions;
-    public LayerMask LineMask;
+    public LayerMask InteractableMask;
     public GameObject targetObject;
     public bool leftMouseButton = false;
     public Vector2 mousePos = Vector2.zero;
@@ -56,7 +55,7 @@ public class InputController : MonoBehaviour
     {
         leftMouseButton = true;
         Vector3 targetPos = Camera.main.ScreenToWorldPoint(mousePos);
-        RaycastHit2D hit = Physics2D.Raycast(targetPos, Vector2.zero, 1f, LineMask);
+        RaycastHit2D hit = Physics2D.Raycast(targetPos, Vector2.zero, 1f, InteractableMask);
 
         if (hit)
         {
@@ -69,6 +68,15 @@ public class InputController : MonoBehaviour
                 }
                 targetObject = hit.transform.gameObject;
             }
+
+            IInteractable interactable = hit.transform.GetComponent<IInteractable>();
+
+            if (interactable != null)
+            {
+                interactable.Interact();
+            }
+
+
         }
 
     }
