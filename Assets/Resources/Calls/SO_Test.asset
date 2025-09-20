@@ -22,11 +22,32 @@ MonoBehaviour:
       value: 10
     Dialogue:
     - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
       content: "Polis karakolu? Komiser R\u0131za Bey veya yard\u0131mc\u0131s\u0131yla
         g\xF6r\xFC\u015Fmem laz\u0131m, acil!"
     - character: {fileID: 11400000, guid: 156e827f023a6ec4c95c442f31725e04, type: 2}
+      isInitial: 0
       content: "Komiser R\u0131za. Durum nedir?"
     - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "R\u0131za Bey, nihayet! \u015Eu \u0130lerici Cephe'ciler yine fabrika
+        \xF6n\xFCnde toplan\u0131p grev vaazleri veriyor! \u0130\u015Fimi, \xFCretimimi
+        sabote ediyorlar! Sendika ba\u015Fkan\u0131 Ali'yi ve birka\xE7 eleba\u015F\u0131y
+        derhal tutuklamal\u0131s\u0131n\u0131z! Hemen!"
+  - entity: 2
+    dialogueEffect:
+      stat: 0
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "Polis karakolu? Komiser R\u0131za Bey veya yard\u0131mc\u0131s\u0131yla
+        g\xF6r\xFC\u015Fmem laz\u0131m, acil!"
+    - character: {fileID: 11400000, guid: 156e827f023a6ec4c95c442f31725e04, type: 2}
+      isInitial: 0
+      content: "Komiser R\u0131za. Durum nedir?"
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
       content: "R\u0131za Bey, nihayet! \u015Eu \u0130lerici Cephe'ciler yine fabrika
         \xF6n\xFCnde toplan\u0131p grev vaazleri veriyor! \u0130\u015Fimi, \xFCretimimi
         sabote ediyorlar! Sendika ba\u015Fkan\u0131 Ali'yi ve birka\xE7 eleba\u015F\u0131y

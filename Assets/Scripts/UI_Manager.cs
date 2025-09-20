@@ -19,4 +19,14 @@ public class UI_Manager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
     }
+
+    public void ShowDialogueBox()
+    {
+        dialogueBox.Show();
+    }
+    
+    public void HideDialogueBox()
+    {
+        dialogueBox.Hide();
+    }
 }

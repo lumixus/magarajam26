@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 319aee24cb93cdd45aa1f1eefe07cfed, type: 3}
   m_Name: Character_Cemal
   m_EditorClassIdentifier: Assembly-CSharp::SO_Character
-  Portrait: {fileID: 0}
+  Portrait: {fileID: 21300000, guid: f8f7c48f456209c4ab667c25b8345ec8, type: 3}
   displayName: "Fabrikat\xF6r Cemal Bey"

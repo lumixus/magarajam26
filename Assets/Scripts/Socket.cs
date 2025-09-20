@@ -28,7 +28,7 @@ public class Socket : MonoBehaviour
 
     public void OnDrop()
     {
-        List<RaycastHit2D> hits = new List<RaycastHit2D>();
+        List<RaycastHit2D> hits = new();
         boxCollider.Cast(Vector2.zero, hits);
 
         if (hits.Count > 0)
@@ -40,7 +40,7 @@ public class Socket : MonoBehaviour
 
                 if (!lineSocket.isConnected)
                 {
-                    lineSocket.ConnectSocket();
+                    lineSocket.ConnectSocket(this);
                     ConnectSocket(lineSocket.transform.position, lineSocket);
                 }
             }

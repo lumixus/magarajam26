@@ -23,8 +23,23 @@ MonoBehaviour:
       value: 10
     Dialogue:
     - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
       content: "Alo? ... Sendika m\u0131? Ali? Operat\xF6r, ben polis istemi\u015Ftim!
         Neden sendikaya ba\u011Flad\u0131n\u0131z?"
     - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
+      content: "\u0130pek Han\u0131m? Sizi duyuyorum. Polis yerine beni araman\u0131z...
+        San\u0131r\u0131m \xF6nemli bir \u015Fey var."
+  - entity: 1
+    dialogueEffect:
+      stat: 0
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "Alo? ... Sendika m\u0131? Ali? Operat\xF6r, ben polis istemi\u015Ftim!
+        Neden sendikaya ba\u011Flad\u0131n\u0131z?"
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
       content: "\u0130pek Han\u0131m? Sizi duyuyorum. Polis yerine beni araman\u0131z...
         San\u0131r\u0131m \xF6nemli bir \u015Fey var."

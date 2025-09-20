@@ -28,7 +28,7 @@ public class DialogueManager : MonoBehaviour
         CurrentDialogue = DialogueQueue.Dequeue();
 
         UI_Manager.instance.dialogueBox.SetDialogue(CurrentDialogue);
-        UI_Manager.instance.DialogueBoxObject.SetActive(true);
+        UI_Manager.instance.ShowDialogueBox();
     }
 
     public void LoadDialogue(Queue<Dialogue> dialogues)
@@ -40,14 +40,17 @@ public class DialogueManager : MonoBehaviour
     {
         if (CurrentDialogue.isInitial)
         {
-            UI_Manager.instance.DialogueBoxObject.SetActive(false);
+            UI_Manager.instance.HideDialogueBox();
             GameManager.instance.ActivateRandomLine();
+            DialogueQueue.Clear();
             return;
         }
 
         if (DialogueQueue.Count == 0)
         {
-            UI_Manager.instance.DialogueBoxObject.SetActive(false);
+            UI_Manager.instance.HideDialogueBox();
+            GameManager.instance.ApplyCallEffect();
+            DialogueQueue.Clear();
             return;
         }
 
