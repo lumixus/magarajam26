@@ -38,6 +38,7 @@ public class DialogueManager : MonoBehaviour
 
     public void NextDialogue()
     {
+        Debug.Log("Clicked");
         if (CurrentDialogue.isInitial)
         {
             UI_Manager.instance.HideDialogueBox();

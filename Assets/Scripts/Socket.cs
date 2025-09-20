@@ -10,10 +10,19 @@ public class Socket : MonoBehaviour
     public UnityEvent<LineSocket> OnConnect;
     public BoxCollider2D boxCollider;
     public LineSocket connectedSocket = null;
+    public SpriteRenderer sr;
+    public Sprite connectedSprite;
+    public Sprite defaultSprite;
+
+    public Vector2 DisconnectedSocketCableHolder;
+    public Vector2 ConnectedSocketCableHolder;
+
+    public GameObject SocketCableHolder;
 
     void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     public void ConnectSocket(Vector2 position, LineSocket socket)
@@ -22,7 +31,8 @@ public class Socket : MonoBehaviour
         isConnected = true;
         transform.position = position;
         connectedSocket = socket;
-
+        SocketCableHolder.transform.localPosition = ConnectedSocketCableHolder;
+        sr.sprite = connectedSprite;
         OnConnect?.Invoke(socket);
     }
 
@@ -52,5 +62,7 @@ public class Socket : MonoBehaviour
     {
         isConnected = false;
         connectedSocket.DisconnectSocket();
+        SocketCableHolder.transform.localPosition = DisconnectedSocketCableHolder;
+        sr.sprite = defaultSprite;
     }
 }

@@ -59,6 +59,7 @@ public class InputController : MonoBehaviour
 
         if (hit)
         {
+            Debug.Log(hit.transform.name);
             if (hit.transform.CompareTag("Socket"))
             {
                 Socket socketScript = hit.transform.GetComponent<Socket>();
