@@ -191,6 +191,8 @@ public class GameManager : MonoBehaviour
             EventCalls.Remove(selectedCall);
         }
 
+        phone.ClosePhone();
+
         CallCounter++;
         if (CallCounter > TotalCallCount)
         {

@@ -7,6 +7,10 @@ public class Socket : MonoBehaviour
 
     public bool isConnected = false;
 
+    public AudioClip[] ConnectAudioClips;
+    public AudioClip[] DisconnectAudioClips;
+    public AudioSource audioSource;
+
     public UnityEvent<LineSocket> OnConnect;
     public BoxCollider2D boxCollider;
     public LineSocket connectedSocket = null;
@@ -23,6 +27,7 @@ public class Socket : MonoBehaviour
     {
         boxCollider = GetComponent<BoxCollider2D>();
         sr = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void ConnectSocket(Vector2 position, LineSocket socket)
@@ -34,6 +39,7 @@ public class Socket : MonoBehaviour
         SocketCableHolder.transform.localPosition = ConnectedSocketCableHolder;
         sr.sprite = connectedSprite;
         OnConnect?.Invoke(socket);
+        audioSource.PlayOneShot(ConnectAudioClips[UnityEngine.Random.Range(0, ConnectAudioClips.Length)]);
     }
 
     public void OnDrop()
@@ -72,5 +78,6 @@ public class Socket : MonoBehaviour
         connectedSocket.DisconnectSocket();
         SocketCableHolder.transform.localPosition = DisconnectedSocketCableHolder;
         sr.sprite = defaultSprite;
+        audioSource.PlayOneShot(ConnectAudioClips[UnityEngine.Random.Range(0, DisconnectAudioClips.Length)]);
     }
 }
