@@ -28,6 +28,14 @@ public class DialogueManager : MonoBehaviour
     public void SetInitialDialogue(Queue<Dialogue> dialogues)
     {
         DialogueQueue = new Queue<Dialogue>(dialogues);
+
+        if (DialogueQueue.Count == 0)
+        {
+            CurrentDialogue.isInitial = false;
+            NextDialogue();
+            return;
+        }
+
         CurrentDialogue = DialogueQueue.Dequeue();
 
         UI_Manager.instance.dialogueBox.SetDialogue(CurrentDialogue);
