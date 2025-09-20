@@ -12,113 +12,97 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7867dbbbfbec8648998f6248faf93b4, type: 3}
   m_Name: Event 4
   m_EditorClassIdentifier: Assembly-CSharp::SO_Call
-  caller: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
-  InitialText: "\"Alo operat\xF6r! \xC7ok tuhaf bir \u015Fey oldu. Belediye'den gelen
-    bir talimatla, k\xFCt\xFCphanedeki baz\u0131 kitaplar\u0131n 'sak\u0131ncal\u0131'
-    oldu\u011Fu ve toplat\u0131lmas\u0131 gerekti\u011Fi s\xF6ylendi. \u0130\xE7lerinde
-    \xE7ok sevilen romanlar da var. Ne yapaca\u011F\u0131m? L\xFCtfen beni Gazeteci
-    \u0130pek Han\u0131m'a ba\u011Fla, bu durumu halka duyursun!\""
+  caller: {fileID: 11400000, guid: 530649e20d9165d40a461955c3e167a0, type: 2}
+  InitialText: "\"Alo operat\xF6r! Okulda gizemli bir hastal\u0131k var! Birka\xE7
+    \xF6\u011Frenci hastaland\u0131, ate\u015Fleri var ve \xF6ks\xFCr\xFCyorlar.
+    L\xFCtfen hemen Dr. Kadir'i hastaneye ba\u011Fla! Acil yard\u0131m gerekiyor.\""
   DialogueBranches:
-  - entity: 4
+  - entity: 1
     dialogueEffect:
       stat: 1
       value: 10
     Dialogue:
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+    - character: {fileID: 11400000, guid: 530649e20d9165d40a461955c3e167a0, type: 2}
       isInitial: 0
-      content: "\"Alo? ... Ziya Bey? Operat\xF6r, ben gazeteciyi aram\u0131\u015Ft\u0131m!\""
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      content: "\"Alo? Polis karakolu? Komiser R\u0131za Bey? Operat\xF6r, ben doktor
+        istemi\u015Ftim!\""
+    - character: {fileID: 11400000, guid: 156e827f023a6ec4c95c442f31725e04, type: 2}
       isInitial: 0
-      content: "\"Say\u0131n Ba\u015Fkan, k\xFCt\xFCphanedeki kitaplarla ilgili talimat\u0131n\u0131z\u0131
-        ald\u0131m ama... L\xFCtfen affedin, bu kitaplar \xE7ok masum. Shakespeare,
-        Hemingway... Bunlar edebiyat klasi\u011Fi. Gen\xE7lerin zihnini buland\u0131rmaktan
-        \xE7ok, ayd\u0131nlat\u0131yorlar. L\xFCtfen bu karar\u0131 yeniden g\xF6zden
-        ge\xE7irin.\""
-    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      content: "\"M\xFCd\xFCr han\u0131m ben Komiser R\u0131za bir problem mi var
+        acaba?\""
+    - character: {fileID: 11400000, guid: 530649e20d9165d40a461955c3e167a0, type: 2}
       isInitial: 0
-      content: "(So\u011Fuk ve kesin bir tonla) \"Ay\u015Fe Han\u0131m, biz sadece
-        kasaban\u0131n ahlaki de\u011Ferlerini ve huzurunu koruyoruz. O kitaplar\u0131n
-        baz\u0131 b\xF6l\xFCmleri gen\xE7 dima\u011Flar i\xE7in uygun de\u011Fil.
-        Talimatlara uyman\u0131z\u0131 istiyorum. Kitaplar\u0131 toplay\u0131n ve
-        belediye deposuna getirin. Bu bir emirdir ve tart\u0131\u015F\u0131lmaz.\""
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      content: "\"R\u0131za komiserim san\u0131r\u0131m okulda salg\u0131n hastal\u0131k
+        bir hastal\u0131k var \xF6\u011Frenciler \xE7ok fena durumda!"
+    - character: {fileID: 11400000, guid: 156e827f023a6ec4c95c442f31725e04, type: 2}
       isInitial: 0
-      content: "\"Peki, Say\u0131n Ba\u015Fkan. Emirleriniz yerine getirilecektir.\""
+      content: "\"Salg\u0131n hastal\u0131k m\u0131? Hemen okulu ablukaya al\u0131yoruz!
+        Bu durumda kimsenin okulu sak\u0131n terk etmesin! \u015Eu dakikadan sonra
+        her \u015Fey devletin kontrol\xFCnde!\""
   - entity: 2
     dialogueEffect:
       stat: 2
       value: 10
     Dialogue:
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+    - character: {fileID: 11400000, guid: 530649e20d9165d40a461955c3e167a0, type: 2}
       isInitial: 0
-      content: "\"Alo? \u0130pek Han\u0131m? Operat\xF6r, iyi ki ba\u011Flad\u0131n!
-        Te\u015Fekk\xFCrler!\""
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
-      isInitial: 0
-      content: "\"\u0130pek Han\u0131m, korkun\xE7 bir \u015Fey oluyor! Belediye,
-        k\xFCt\xFCphanedeki masum kitaplar\u0131 bile 'sak\u0131ncal\u0131' ilan
-        edip toplatmak istiyor. Bu apa\xE7\u0131k bir sans\xFCr! Halk\u0131n bilgiye
-        eri\u015Fim hakk\u0131n\u0131 elimizden al\u0131yorlar!\""
+      content: "\"Alo? \u0130pek Han\u0131m? Operat\xF6r, ben doktoru ar\u0131yordum
+        neden gazeteyi ba\u011Flad\u0131n\u0131z!\""
     - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
       isInitial: 0
-      content: "\"Ay\u015Fe Han\u0131m, bu inan\u0131lmaz! Hemen man\u015Fet atmal\u0131y\u0131m:
-        'Belediye K\xFCt\xFCphaneyi Sans\xFCr Ediyor! Halk\u0131n Bilgi Hakk\u0131
-        Elinden Al\u0131n\u0131yor!' T\xFCm kasaba bu rezaleti \xF6\u011Frenmeli.
-        Bana kitaplar\u0131n listesini ve talimat\u0131n bir kopyas\u0131n\u0131
-        getirir misiniz? Her \u015Feyi belgeleyelim!\""
+      content: "\" M\xFCd\xFCr Beyza han\u0131m? Okulda bir problem mi var?"
+    - character: {fileID: 11400000, guid: 530649e20d9165d40a461955c3e167a0, type: 2}
+      isInitial: 0
+      content: "1\u0130pek han\u0131m san\u0131r\u0131m salg\u0131n bir hastal\u0131k
+        kol geziyor. \xD6\u011Frenciler k\xF6t\xFC durumdalar. Bu y\xFCzden hastaneye
+        ula\u015Fmaya \xE7al\u0131\u015F\u0131yordum!"
     - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
       isInitial: 0
-      content: "\"Evet, evet hemen getirece\u011Fim! \xC7ok te\u015Fekk\xFCr ederim
-        \u0130pek Han\u0131m! Umar\u0131m sesimizi duyurabiliriz.\""
-  - entity: 6
+      content: "\"M\xFCd\xFCr Han\u0131m, bu \xE7ok \xF6nemli bir haber! Halk\u0131n
+        sa\u011Fl\u0131\u011F\u0131 tehlikede! Hemen man\u015Fet atmal\u0131y\u0131m:
+        'Okulda Gizemli Salg\u0131n! Yetkilileri G\xF6reve \xC7a\u011F\u0131r\u0131yoruz!'
+        Bu sayede herkes tedbir al\u0131r ve bask\u0131 olu\u015Fur.\""
+  - entity: 3
     dialogueEffect:
       stat: 0
       value: 10
     Dialogue:
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+    - character: {fileID: 11400000, guid: 530649e20d9165d40a461955c3e167a0, type: 2}
       isInitial: 0
-      content: "\"Alo? ... Ahmet Bey? Operat\xF6r, pastane mi? Neden oraya ba\u011Flad\u0131n\u0131z?\""
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      content: " \"Alo? ... Ali? Sendika m\u0131? Operat\xF6r, ben doktor istemi\u015Ftim!
+        Neden sendikaya ba\u011Flad\u0131n\u0131z?\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
       isInitial: 0
-      content: "\"Ahmet Bey, k\xFCt\xFCphanedeki kitaplar\u0131m\u0131z\u0131 almak
-        istiyorlar! Ne yapaca\u011F\u0131m\u0131 bilmiyorum!\""
-    - character: {fileID: 11400000, guid: 22e22d18bbeb3b443903fd3ecf2597d2, type: 2}
+      content: "\"M\xFCd\xFCr Beyza? Sizi duyuyorum. Hastal\u0131k m\u0131? Bu bir
+        i\u015F\xE7i sa\u011Fl\u0131\u011F\u0131 ve g\xFCvenli\u011Fi sorunu! E\u011Fer
+        okulda hastal\u0131k varsa, bu \xF6\u011Frenciler i\xE7in de\u011Fil, ayn\u0131
+        zamanda okul \xE7al\u0131\u015Fanlar\u0131 i\xE7in de bir risk! Hemen sendika
+        \xFCyelerimi toplayay\u0131m! Okula gelip sa\u011Fl\u0131k denetimi yapaca\u011F\u0131z!
+        Belediye ve hastane bir \u015Fey yapm\u0131yorsa, i\u015F\xE7iler olarak
+        biz el atar\u0131z!\""
+    - character: {fileID: 11400000, guid: 530649e20d9165d40a461955c3e167a0, type: 2}
       isInitial: 0
-      content: "\"Kitaplar m\u0131? Aman\u0131n! Harika bir fikir geldi akl\u0131ma!
-        Pastane olarak bir 'Kitapl\u0131 Kurabiye' kampanyas\u0131 ba\u015Flatal\u0131m!
-        Her kurabiye alana bir kitap hediye ederiz! \u0130nsanlar kitaplar\u0131
-        kurtarmak i\xE7in pastaneye ko\u015Far! Belediye kitaplar\u0131 toplayamaz!"
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      content: "\"Hay\u0131r, Ali Bey! L\xFCtfen yapmay\u0131n! Bu \xE7ok yanl\u0131\u015F!
+        \xD6\u011Frenciler zaten hasta, siz gelirseniz hastal\u0131k daha da yay\u0131labilir!
+        L\xFCtfen profesyonel yard\u0131m bekleyelim!\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
       isInitial: 0
-      content: "\"Ahmet Bey, l\xFCtfen! Bu hi\xE7 mant\u0131kl\u0131 de\u011Fil!
-        Kitaplar pastanenin ellerinde mahvolacak!\""
-    - character: {fileID: 11400000, guid: 22e22d18bbeb3b443903fd3ecf2597d2, type: 2}
-      isInitial: 0
-      content: "\"Merak etmeyin Ay\u015Fe Han\u0131m! Her kurabiye \xF6zel bir kitap
-        ayrac\u0131yla gelecek! Hemen haz\u0131rl\u0131klara ba\u015Fl\u0131yorum!\""
-  - entity: 8
+      content: "\"M\xFCd\xFCr Han\u0131m, siz i\u015Finizi iyi yapm\u0131yorsunuz!
+        Biz i\u015F\xE7iler her zaman haklar\u0131m\u0131z\u0131 savunmak zorunda
+        kal\u0131yoruz! \u0130\u015F\xE7i sa\u011Fl\u0131\u011F\u0131 g\xF6z ard\u0131
+        edilemez! \u015Eimdi yolday\u0131z!\""
+  - entity: 5
     dialogueEffect:
       stat: 3
       value: 10
     Dialogue:
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
-      isInitial: 0
-      content: "\"Alo? ... M\xFCd\xFCr Beyza Han\u0131m? Operat\xF6r, yanl\u0131\u015F
-        ba\u011Flad\u0131n\u0131z galiba!\""
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
-      isInitial: 0
-      content: "\"M\xFCd\xFCr Han\u0131m, size de mi dan\u0131\u015F\u0131lmad\u0131?
-        Belediye, \xF6\u011Frencilerin okumas\u0131 i\xE7in uygun g\xF6r\xFClmeyen
-        kitaplar\u0131 toplatmak istiyor. Bu kitaplar\u0131n \xE7o\u011Fu m\xFCfredatta
-        bile var!\""
     - character: {fileID: 11400000, guid: 530649e20d9165d40a461955c3e167a0, type: 2}
       isInitial: 0
-      content: "\"Ay\u015Fe Han\u0131m, bu \xE7ok ciddi bir iddia. Hemen E\u011Fitim
-        Bakanl\u0131\u011F\u0131'na veya ilgili bir \xFCst kurula resmi bir itiraz
-        mektubu yazal\u0131m. Kanunsuz ve keyfi bir uygulama olabilir. Birlikte hareket
-        edelim. Bana talimat\u0131n bir kopyas\u0131n\u0131 ve listedeki kitaplar\u0131
-        getirin, hukuki s\xFCreci ba\u015Flatal\u0131m.\""
-    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      content: "\"Alo? Dr. Han\u0131m, okulda acil durum var! \xD6\u011Frenciler
+        hastaland\u0131, belki bula\u015F\u0131c\u0131 bir hastal\u0131k. Hemen gelmeniz
+        laz\u0131m!\""
+    - character: {fileID: 11400000, guid: fcca6ceaebe8cb545ba23dcd98d77fc0, type: 2}
       isInitial: 0
-      content: " \"\xC7ok te\u015Fekk\xFCr ederim M\xFCd\xFCr Han\u0131m! Hemen getirece\u011Fim.
-        En az\u0131ndan bu i\u015Fi usul\xFCne g\xF6re \xE7\xF6zmeye \xE7al\u0131\u015Faca\u011F\u0131z.\""
+      content: "\"M\xFCd\xFCr Han\u0131m, sakin olun. Hemen ambulans yolluyorum.
+        \xD6\u011Frencileri izole edin, kimseyle temas etmesinler. Ben de yolday\u0131m.
+        Profesyonelce hallederiz.\""

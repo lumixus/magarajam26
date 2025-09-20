@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7867dbbbfbec8648998f6248faf93b4, type: 3}
+  m_Name: Event 5
+  m_EditorClassIdentifier: Assembly-CSharp::SO_Call
+  caller: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+  InitialText: "\"Alo operat\xF6r! Kasabam\u0131z i\xE7in b\xFCy\xFCk bir festival
+    d\xFCzenlemek istiyoruz. Ancak b\xFCt\xE7e k\u0131s\u0131tl\u0131. L\xFCtfen
+    beni Fabrikat\xF6r Cemal Bey'e ba\u011Fla, ondan festival i\xE7in sponsorluk
+    deste\u011Fi istiyorum.\""
+  DialogueBranches:
+  - entity: 10
+    dialogueEffect:
+      stat: 1
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Cemal Bey, kasabada b\xFCy\xFCk bir festival planl\u0131yoruz.
+        Sizden sponsorluk deste\u011Fi istiyoruz. Kar\u015F\u0131l\u0131\u011F\u0131nda
+        festival alan\u0131nda fabrikan\u0131z\u0131n reklam\u0131n\u0131 yapabiliriz.\""
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"Tabii ki Ziya Bey! Ancak bir \u015Fart\u0131m var: Festivalde i\u015F\xE7ilerin
+        sendika ile ilgili konu\u015Fmalar\u0131na veya protesto etmelerine izin
+        verilmeyecek. G\xFCvenlik i\xE7in de polis kontrol\xFC sa\u011Flanacak. Aksi
+        takdirde deste\u011Fimizi \xE7ekeriz.\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: '"Tabii, tabii. Merak etmeyin."'
+  - entity: 3
+    dialogueEffect:
+      stat: 2
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Alo? Fabrika m\u0131? Cemal Bey\u2019le g\xF6r\xFC\u015Fecektim\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
+      content: '"Alo? Ben Ali. Buyurun, Ziya Bey."'
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Ali Bey? Asl\u0131nda... ben Cemal Bey\u2019i aram\u0131\u015Ft\u0131m.
+        Festival haz\u0131rl\u0131klar\u0131 i\xE7in konu\u015Facakt\u0131m.\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
+      content: "\"Festival mi? Harika! Sendika olarak biz de katk\u0131da bulunmak
+        isteriz. G\xF6n\xFCll\xFC i\u015F\xE7ilerle festivali birlikte organize edelim.
+        Hem i\u015F\xE7i dayan\u0131\u015Fmas\u0131n\u0131 g\xF6steririz, hem de
+        fabrikat\xF6r\xFCn sponsorlu\u011Funa gerek kalmaz!\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "(Kayg\u0131l\u0131, ikna olmam\u0131\u015F) \"Ama Ali Bey... fabrikat\xF6r\xFCn
+        deste\u011Fi olmadan masraflar nas\u0131l kar\u015F\u0131lan\u0131r? B\xF6yle
+        b\xFCy\xFCk bir organizasyon riskli olmaz m\u0131?\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
+      content: "(Kararl\u0131, g\xFCven verici) \"Merak etmeyin! \u0130\u015F\xE7iler
+        el birli\u011Fiyle her \u015Feyi \xFCstlenir. Bu festival onlar\u0131n g\xFCc\xFCn\xFC,
+        birlikteli\u011Fini g\xF6sterecek. Fabrikat\xF6r\xFCn ad\u0131 olmadan \xE7ok
+        daha anlaml\u0131 olur.\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Belki de hakl\u0131s\u0131n\u0131z... Bu dayan\u0131\u015Fma herkese
+        \xF6rnek olabilir.\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
+      content: "\"Kesinlikle \xF6yle, Ziya Bey. Festival, i\u015F\xE7ilerin ve halk\u0131n
+        bayram\u0131 olacak.\""
+  - entity: 6
+    dialogueEffect:
+      stat: 0
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Alo? Fabrika m\u0131? Cemal Bey\u2019le g\xF6r\xFC\u015Fecektim,
+        festival haz\u0131rl\u0131klar\u0131 i\xE7in...\""
+    - character: {fileID: 11400000, guid: 22e22d18bbeb3b443903fd3ecf2597d2, type: 2}
+      isInitial: 0
+      content: "\"Alo? Ben Ahmet! Festival mi dediniz? M\xFCthi\u015F fikir! Hemen
+        kafede bir toplant\u0131 yapal\u0131m. Herkesi \xE7a\u011F\u0131ral\u0131m,
+        her kafadan bir ses \xE7\u0131ks\u0131n! Rock\u2019n\u2019roll konseri, dans
+        yar\u0131\u015Fmas\u0131, belki de kafe fight... Her \u015Fey olsun!\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Ahmet Bey? Ben asl\u0131nda Cemal Bey\u2019i aram\u0131\u015Ft\u0131m...
+        Hem bu kadar \xE7ok etkinlik i\xE7in b\xFCt\xE7e yetmez!\""
+    - character: {fileID: 11400000, guid: 22e22d18bbeb3b443903fd3ecf2597d2, type: 2}
+      isInitial: 0
+      content: "(Umursamaz, \xF6zg\xFCr ruhlu) \"\xD6nemli de\u011Fil! Herkes istedi\u011Fini
+        yaps\u0131n, festivalde \xF6zg\xFCrl\xFCk olsun!\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Ama b\xF6yle olursa d\xFCzen kalmaz, kaos \xE7\u0131kar... Bunu
+        nas\u0131l kontrol edece\u011Fiz?\""
+    - character: {fileID: 11400000, guid: 22e22d18bbeb3b443903fd3ecf2597d2, type: 2}
+      isInitial: 0
+      content: "\"Kontrol m\xFC? \u0130\u015Fte mesele o! Kontrol olmayacak! Festival
+        herkesin kendini ifade etti\u011Fi bir alan olmal\u0131. Ne kadar \xE7ok
+        ses, o kadar renk!\""
+    - character: {fileID: 11400000, guid: 22e22d18bbeb3b443903fd3ecf2597d2, type: 2}
+      isInitial: 0
+      content: "(\u0130\xE7ten i\xE7e huzursuz) \"Hmm... Bilmiyorum Leyla Han\u0131m.
+        Bu i\u015F biraz fazla tehlikeli g\xF6r\xFCn\xFCyor.\""
+    - character: {fileID: 11400000, guid: 22e22d18bbeb3b443903fd3ecf2597d2, type: 2}
+      isInitial: 0
+      content: "\"Tehlike de\u011Fil Ziya Bey, hayat\u0131n ta kendisi! Gelin, b\u0131rak\u0131n
+        insanlar \xF6zg\xFCrce e\u011Flensin!\""
+  - entity: 7
+    dialogueEffect:
+      stat: 3
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Alo? Fabrika m\u0131? Cemal Bey\u2019le g\xF6r\xFC\u015Fecektim,
+        festival i\xE7in ar\u0131yordum.\""
+    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      isInitial: 0
+      content: "\"Merhaba, ben Ay\u015Fe. Festival i\xE7in mi arad\u0131n\u0131z?
+        G\xFCzel fikir! K\xFCt\xFCphane olarak biz de k\xFClt\xFCrel etkinliklerle
+        katk\u0131da bulunabiliriz.\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Ay\u015Fe Han\u0131m? Ben asl\u0131nda Cemal Bey\u2019e ula\u015Fmak
+        istemi\u015Ftim\u2026 Ama katk\u0131n\u0131z elbette de\u011Ferli olur.\""
+    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      isInitial: 0
+      content: "\"Sadece fabrikat\xF6r de\u011Fil, t\xFCm esnaf\u0131 s\xFCrece dahil
+        edelim. Pastaneden kurabiye, kafeden i\xE7ecek, belediye organizasyonu \xFCstlensin.
+        Kitle fonlamas\u0131 gibi, herkes elini ta\u015F\u0131n alt\u0131na koysun.\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Ama b\xF6ylesi \xE7ok karma\u015F\u0131k olmaz m\u0131? Herkesin
+        g\xF6nl\xFCnden ne koparsa vermesiyle i\u015Fler y\xFCr\xFCyecek mi?\""
+    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      isInitial: 0
+      content: "\"Tam aksine! B\xF6ylece festival halk\u0131n festivali olur. Tek
+        bir ki\u015Finin paras\u0131na ba\u011Fl\u0131 kalmaz, herkes sahiplenir.\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Do\u011Fru diyorsunuz... Belki de b\xF6ylesi daha sa\u011Flam bir
+        birliktelik yarat\u0131r.\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Evet Ziya Bey, dayan\u0131\u015Fma en b\xFCy\xFCk kayna\u011F\u0131m\u0131zd\u0131r.\""

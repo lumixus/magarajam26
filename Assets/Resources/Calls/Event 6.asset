@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7867dbbbfbec8648998f6248faf93b4, type: 3}
+  m_Name: Event 6
+  m_EditorClassIdentifier: Assembly-CSharp::SO_Call
+  caller: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+  InitialText: "\"Alo operat\xF6r! Belediye ba\u015Fkan\u0131 Ziya Bey'in ye\u011Fenine
+    verilen yol ihalesiyle ilgili kan\u0131tlar\u0131m var. Polisi ba\u011Fla! Bu
+    yolsuzlu\u011Fu ara\u015Ft\u0131rmalar\u0131 gerekiyor.\""
+  DialogueBranches:
+  - entity: 1
+    dialogueEffect:
+      stat: 1
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Komiser R\u0131za, size belediye ba\u015Fkan\u0131 Ziya Bey'in
+        ye\u011Fenine yap\u0131lan usuls\xFCz ihale ile ilgili kan\u0131tlar\u0131m\u0131
+        iletece\u011Fim. L\xFCtfen derhal soru\u015Fturun.\""
+    - character: {fileID: 11400000, guid: 156e827f023a6ec4c95c442f31725e04, type: 2}
+      isInitial: 0
+      content: "(So\u011Fuk bir tonla) \"\u0130pek Han\u0131m, kan\u0131tlar\u0131n\u0131z\u0131
+        inceleriz. Ancak, belediye ba\u015Fkan\u0131 hakk\u0131nda b\xF6yle ciddi
+        iddialar i\xE7in resmi prosed\xFCrleri takip etmemiz gerekir. Siz kan\u0131tlar\u0131
+        b\u0131rak\u0131n, biz gerekeni yapar\u0131z.\""
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Peki, hemen getiriyorum. Umar\u0131m h\u0131zl\u0131 hareket edersiniz.\""
+    - character: {fileID: 11400000, guid: 156e827f023a6ec4c95c442f31725e04, type: 2}
+      isInitial: 0
+      content: "\"Tabii, tabii. Merak etmeyin.\" (Arka planda g\xFCl\xFC\u015Fme
+        sesleri)"
+  - entity: 3
+    dialogueEffect:
+      stat: 2
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Alo? ... Sendika m\u0131? Ali? Operat\xF6r, ben polis istemi\u015Ftim!
+        Neden sendikaya ba\u011Flad\u0131n\u0131z?\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
+      content: "\"\u0130pek Han\u0131m? Sizi duyuyorum. Polis yerine beni araman\u0131z...
+        San\u0131r\u0131m \xF6nemli bir \u015Fey var.\""
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Ali, do\u011Fru! Ziya Bey'in yolsuzlu\u011Funa dair kan\u0131tlar\u0131m
+        var. Halk\u0131n bunu bilmesi laz\u0131m!\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
+      content: "\"Hakl\u0131s\u0131n\u0131z! Hemen i\u015F\xE7ileri topluyorum. Belediye
+        \xF6n\xFCnde protesto d\xFCzenleyece\u011Fiz. Bu yolsuzlu\u011Fa dur diyece\u011Fiz!
+        Sesimizi duyuraca\u011F\u0131z!\""
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"M\xFCthi\u015F! Ben de haberi yaz\u0131yorum. Birlikte daha g\xFC\xE7l\xFCy\xFCz!\""
+  - entity: 4
+    dialogueEffect:
+      stat: 0
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Alo? ... Ziya Bey? Operat\xF6r, ben polis istemi\u015Ftim! Neden
+        belediye ba\u015Fkan\u0131na ba\u011Flad\u0131n\u0131z?\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"\u0130pek Han\u0131m? Sizi duyuyorum. Polis yerine beni araman\u0131z...
+        ilgin\xE7. Bir problem mi var?\""
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Evet, problem sizsiniz! Ye\u011Feninize yap\u0131lan usuls\xFCz
+        ihalenin kan\u0131tlar\u0131 bende! Bunu herkese a\xE7\u0131klayaca\u011F\u0131m!\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "(Sinirli) \"\xC7ok c\xFCretkars\u0131n\u0131z! B\xF6yle as\u0131ls\u0131z
+        iddialarla beni rahats\u0131z edemezsiniz! E\u011Fer bu kan\u0131tlar\u0131
+        yay\u0131nlarsan\u0131z, ba\u015F\u0131n\u0131z belaya girer. Anlad\u0131n\u0131z
+        m\u0131?\""
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: '"Bu bir tehdit mi? Bunu da kaydediyorum!"'
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"Operat\xF6r, bu ba\u011Flant\u0131y\u0131 kesin! Hemen!\""
+  - entity: 7
+    dialogueEffect:
+      stat: 3
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Alo? ... K\xFCt\xFCphane? Operat\xF6r, ben polis istemi\u015Ftim!
+        Neden k\xFCt\xFCphaneye ba\u011Flad\u0131n\u0131z?\""
+    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      isInitial: 0
+      content: "\"\u0130pek Han\u0131m? Sizi duyuyorum. Polis yerine k\xFCt\xFCphaneyi
+        araman\u0131z... San\u0131r\u0131m ara\u015Ft\u0131rma yapman\u0131z gerekiyor.\""
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Asl\u0131nda, belediye yolsuzlu\u011Fu ile ilgili kan\u0131tlar\u0131m
+        var ama en do\u011Fru yolu bulmak istiyorum.\""
+    - character: {fileID: 11400000, guid: afcde5dfe713deb49b3dfd633abb1855, type: 2}
+      isInitial: 0
+      content: "\"Ak\u0131ll\u0131ca. Hemen size yasal s\xFCre\xE7lerle ilgili kaynaklar\u0131
+        getireyim. Kan\u0131tlar\u0131 savc\u0131l\u0131\u011Fa veya \xFCst mahkemeye
+        iletmeniz daha uygun olabilir. Polis do\u011Fru adres olmayabilir.\""
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"\xC7ok te\u015Fekk\xFCrler! Adalet i\xE7in do\u011Fru yolu izleyece\u011Fim.\""
