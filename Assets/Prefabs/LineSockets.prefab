@@ -244,8 +244,9 @@ MonoBehaviour:
   UsableLightSprite: {fileID: -8838456609970395247, guid: 778d1d3a52d46264bac7f2e28b42fd0a, type: 3}
   ActiveLightSprite: {fileID: 21300000, guid: 82f16c37ceaeea74ca5119e38adeb9fc, type: 3}
   DefaultLightSprite: {fileID: -6636506735653812305, guid: 778d1d3a52d46264bac7f2e28b42fd0a, type: 3}
-  WrongLightSprite: {fileID: 21300000, guid: 205881c0fa859a44c970620453f8680f, type: 3}
-  entity: 1
+  WrongLightSprite: {fileID: 21300000, guid: 6a17e972df678d84394d72f9900919e5, type: 3}
+  isUsable: 0
+  entity: 2
   isConnected: 0
 --- !u!1 &8920674942632648225
 GameObject:
