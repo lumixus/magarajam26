@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7867dbbbfbec8648998f6248faf93b4, type: 3}
+  m_Name: Event 1
+  m_EditorClassIdentifier: Assembly-CSharp::SO_Call
+  caller: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+  InitialText: " \u201CAlo, operat\xF6r! Bu i\u015F\xE7iler yine sorun \xE7\u0131kar\u0131yor.
+    Derhal polisi ba\u011Fla! Hemen!\u201D"
+  DialogueBranches:
+  - entity: 1
+    dialogueEffect:
+      stat: 1
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"Polis karakolu? Komiser R\u0131za Bey veya yard\u0131mc\u0131s\u0131yla
+        g\xF6r\xFC\u015Fmem laz\u0131m, acil!\""
+    - character: {fileID: 11400000, guid: 156e827f023a6ec4c95c442f31725e04, type: 2}
+      isInitial: 0
+      content: "(So\u011Fuk, resmi bir tonla) \"Komiser R\u0131za. Durum nedir?\""
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "(Tela\u015Fl\u0131 ve \xF6fkeli) \"R\u0131za Bey, nihayet! \u015Eu
+        \u0130lerici Cephe'ciler yine fabrika \xF6n\xFCnde toplan\u0131p grev vaazleri
+        veriyor! \u0130\u015Fimi, \xFCretimimi sabote ediyorlar! Sendika ba\u015Fkan\u0131
+        Ali'yi ve birka\xE7 eleba\u015F\u0131y derhal tutuklamal\u0131s\u0131n\u0131z!
+        Hemen!\""
+    - character: {fileID: 11400000, guid: 156e827f023a6ec4c95c442f31725e04, type: 2}
+      isInitial: 0
+      content: "(Sakin, g\xFCven verici) \"Sakin olun Cemal Bey. Kontrol bizde. Ekibimi
+        hemen yola \xE7\u0131kar\u0131yorum. Kamu d\xFCzenini bozan bu t\xFCr toplanmalara
+        asla izin vermeyiz. D\xFCzen en y\xFCksek \xF6nceli\u011Fimizdir. Merak etmeyin,
+        hallederiz.\""
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"\xC7abuk olun! Her saniye \xE7ok \xF6nemli! Bu ayaklanmay\u0131
+        en ba\u015F\u0131nda bo\u011Fmal\u0131y\u0131z!\""
+    - character: {fileID: 11400000, guid: 156e827f023a6ec4c95c442f31725e04, type: 2}
+      isInitial: 0
+      content: "\"Anla\u015F\u0131ld\u0131. Operasyon ba\u015Fl\u0131yor.\""
+  - entity: 2
+    dialogueEffect:
+      stat: 2
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"Alo? Polis karakolu mu? ... Bekle, bu ses... \u0130pek Han\u0131m
+        m\u0131? Operat\xF6r, ben polis istemi\u015Ftim! Neden gazeteye ba\u011Flad\u0131n\u0131z?\""
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Cemal Bey? Sizi duyuyorum. Polisi aramak yerine neden do\u011Frudan
+        beni aramad\u0131n\u0131z? \u0130\u015F\xE7ilerle ilgili bir sorun mu var?
+        Halk\u0131n haber alma hakk\u0131 var, biliyorsunuz.\"\n"
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: " \"Bu bir yanl\u0131\u015F anlama! Operat\xF6r, ba\u011Flant\u0131y\u0131
+        kesin! Hemen polisi ba\u011Flay\u0131n!\""
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"Hay\u0131r, bekleyin! Cemal Bey, e\u011Fer i\u015F\xE7ilerle ilgili
+        bir sorun varsa, bunu kamuoyuyla payla\u015Fmal\u0131s\u0131n\u0131z. Belki
+        bir r\xF6portaj yapabiliriz?\"\n"
+    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+      isInitial: 0
+      content: "\"R\xF6portaj falan yok! Operat\xF6r, ba\u011Flant\u0131y\u0131 kesiyorum!\""
+  - entity: 3
+    dialogueEffect:
+      stat: 0
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"ALO? ... Ali? SEN M\u0130S\u0130N? Operat\xF6r, bu nedir? Bir \u015Faka
+        m\u0131 yap\u0131yorsun? Ben polis istedim, neden bu asiyle ba\u011Flant\u0131
+        kuruyorsun? KES \u015EU BA\u011ELANTIYI HEMEN!\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
+      content: " (\xD6nce \u015Fa\u015F\u0131r\u0131r, sonra sinirlenir) \"Cemal
+        Bey? Sizi duyuyorum. Demek polisi aram\u0131\u015Fs\u0131n\u0131z. Bizi susturmak,
+        grevimizi bast\u0131rmak i\xE7in! Ama g\xF6r\xFCyorum ki operat\xF6r arkada\u015F\u0131m\u0131z
+        sayesinde do\u011Frudan sizinle y\xFCzle\u015Fme \u015Fans\u0131m oldu!\""
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"Seninle y\xFCzle\u015Fmek falan yok! Bu bir hata! Operat\xF6r,
+        BEN\u0130 D\u0130NL\u0130YOR MUSUN? KES!\""
+    - character: {fileID: 11400000, guid: b457a73b49aebc34298fd305b5f58f2e, type: 2}
+      isInitial: 0
+      content: "(Ba\u011F\u0131rarak) \"Dinlesin! Herkes dinlesin! Cemal Bey korkuyor!
+        Adaletsizli\u011Fini, bize yapt\u0131klar\u0131n\u0131 herkes duysun! Polisi
+        \xE7a\u011F\u0131rmak yerine gelin de y\xFCz\xFCm\xFCze kar\u015F\u0131 s\xF6yleyin,
+        neden haklar\u0131m\u0131z\u0131 vermiyorsunuz?\""
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "(\xC7\u0131lg\u0131na d\xF6nm\xFC\u015F) \"SUS! SANA B\u0130R \u015EEY
+        S\xD6YLEMEK ZORUNDA DE\u011E\u0130L\u0130M! OPERAT\xD6R, SON KEZ S\xD6YL\xDCYORUM!\"\n"
+  - entity: 4
+    dialogueEffect:
+      stat: 3
+      value: 10
+    Dialogue:
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"Belediye ba\u015Fkan\u0131 m\u0131? Ziya Bey? Operat\xF6r, ben
+        polis istemi\u015Ftim! Neden belediyeye ba\u011Flad\u0131n\u0131z?\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: " \"Cemal Bey? Ho\u015F geldiniz. Bir problem mi var? Polis yerine
+        beni araman\u0131z... ilgin\xE7.\""
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"Evet, i\u015F\xE7iler yine grevde. Ama polis gerekiyor, siz de\u011Fil!\""
+    - character: {fileID: 11400000, guid: 37705523142fc954faed44e72e4ca483, type: 2}
+      isInitial: 0
+      content: "\"Biraz sakin olun. Belki arabuluculuk yapabilirim? Polis her zaman
+        en iyi \xE7\xF6z\xFCm de\u011Fildir.\""
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
+      isInitial: 0
+      content: "\"Belki... ama yine de operat\xF6r hata yapt\u0131!\""
