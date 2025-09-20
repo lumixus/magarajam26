@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 319aee24cb93cdd45aa1f1eefe07cfed, type: 3}
   m_Name: Character_Beyza
   m_EditorClassIdentifier: Assembly-CSharp::SO_Character
-  Portrait: {fileID: 21300000, guid: 7b985249d3449164db1a4eb5a6979ca7, type: 3}
-  displayName: "Komiser R\u0131za"
+  Portrait: {fileID: 21300000, guid: 3479ddcd8eb4e1240a16bdda83481460, type: 3}
+  displayName: "Okul M\xFCd\xFCr\xFC Beyza Han\u0131m"
