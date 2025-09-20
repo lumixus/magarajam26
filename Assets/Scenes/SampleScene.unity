@@ -6001,7 +6001,7 @@ Transform:
   m_GameObject: {fileID: 1963799247}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.78, y: 5.06, z: 0}
+  m_LocalPosition: {x: -2.18, y: 5.38, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6054,7 +6054,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: b6e9aeafa540e504f85e3bc1c82546ab, type: 3}
+  m_Sprite: {fileID: 9144859211259609786, guid: aa20a2a6558f2864e8d050afb27a073a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6077,6 +6077,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 461151c43ea8e8842b54db394816ee43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwitchButton
+  isPressed: 0
+  pressedSprite: {fileID: 1524694623, guid: aa20a2a6558f2864e8d050afb27a073a, type: 3}
+  defaultSprite: {fileID: 9144859211259609786, guid: aa20a2a6558f2864e8d050afb27a073a, type: 3}
+  sr: {fileID: 0}
 --- !u!61 &1963799251
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6111,17 +6115,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.000764817, y: -0.009177934}
+  m_Offset: {x: -0.000764817, y: 0.08951619}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.2}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.2, y: 0.18}
     newSize: {x: 0.1, y: 0.09}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.20248702, y: 0.1664829}
+  m_Size: {x: 0.20248702, y: 0.17007184}
   m_EdgeRadius: 0
 --- !u!1 &1982716168
 GameObject:
@@ -6626,7 +6630,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0fb70595d2498514187b79ee2fcd03b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f6d126f743ccf154f8888a449748ea5c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
