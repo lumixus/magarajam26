@@ -71,7 +71,7 @@ MonoBehaviour:
       content: "\"Hay\u0131r, bekleyin! Cemal Bey, e\u011Fer i\u015F\xE7ilerle ilgili
         bir sorun varsa, bunu kamuoyuyla payla\u015Fmal\u0131s\u0131n\u0131z. Belki
         bir r\xF6portaj yapabiliriz?\"\n"
-    - character: {fileID: 11400000, guid: f691863f6a742184d9d8af38d5fa8d8d, type: 2}
+    - character: {fileID: 11400000, guid: bb520a4b230be544db3c4939c8be3b71, type: 2}
       isInitial: 0
       content: "\"R\xF6portaj falan yok! Operat\xF6r, ba\u011Flant\u0131y\u0131 kesiyorum!\""
   - entity: 3
