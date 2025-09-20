@@ -22,3 +22,9 @@ public enum CityStats
     PEOPLE,
     ORDER,
 }
+
+public enum CallType
+{
+    EVENT,
+    NORMAL,
+}

@@ -7,6 +7,8 @@ public class SO_Call : ScriptableObject
 {
     public SO_Character caller;
 
+    public CallType type;
+
     [TextArea(5, 20)]
     public string InitialText;
 
