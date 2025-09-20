@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6d126f743ccf154f8888a449748ea5c
+guid: c104e64cdec2cd94092c194737aabc56
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2667988091939140505
-    second: ana oyun son_0
+      213: -7443756053782179069
+    second: background_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ana oyun son_0
+      name: background_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76ccefa47f669fad0800000000000000
-      internalID: -2667988091939140505
+      spriteID: 30356abce4772b890800000000000000
+      internalID: -7443756053782179069
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ana oyun son_0: -2667988091939140505
+      background_0: -7443756053782179069
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
