@@ -8,6 +8,9 @@ public class DialogueManager : MonoBehaviour
     public Dialogue CurrentDialogue;
     public GameObject DialogueBox;
 
+    public bool isDialogueActive = false;
+
+
     void Awake()
     {
         if (instance == null)
@@ -29,6 +32,7 @@ public class DialogueManager : MonoBehaviour
 
         UI_Manager.instance.dialogueBox.SetDialogue(CurrentDialogue);
         UI_Manager.instance.ShowDialogueBox();
+        isDialogueActive = true;
     }
 
     public void LoadDialogue(Queue<Dialogue> dialogues)
@@ -38,10 +42,11 @@ public class DialogueManager : MonoBehaviour
 
     public void NextDialogue()
     {
-        Debug.Log("Clicked");
         if (CurrentDialogue.isInitial)
         {
             UI_Manager.instance.HideDialogueBox();
+            isDialogueActive = false;
+
             GameManager.instance.ActivateRandomLine();
             DialogueQueue.Clear();
             return;
@@ -50,6 +55,7 @@ public class DialogueManager : MonoBehaviour
         if (DialogueQueue.Count == 0)
         {
             UI_Manager.instance.HideDialogueBox();
+            isDialogueActive = false;
             GameManager.instance.ApplyCallEffect();
             DialogueQueue.Clear();
             return;
