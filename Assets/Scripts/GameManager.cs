@@ -74,6 +74,7 @@ public class GameManager : MonoBehaviour
         CallCounter = 1;
         TotalDay = Days.Count;
         CurrentDaySO = Days[CurrentDay];
+        UI_Manager.instance.ShowDayIndicator(CurrentDay + 1);
 
 
         StartCoroutine(LoadNextCall());
@@ -91,6 +92,7 @@ public class GameManager : MonoBehaviour
         CallCounter = 1;
         isEventCallPassed = false;
         CurrentDaySO = Days[CurrentDay];
+        UI_Manager.instance.ShowDayIndicator(CurrentDay + 1);
         if (CurrentDaySO.GetRandomCount)
         {
             TotalCallCount = CurrentDaySO.GetRandomCallCount();
@@ -115,8 +117,6 @@ public class GameManager : MonoBehaviour
         float eventPossibility = UnityEngine.Random.Range(0f, 1f);
 
         bool isEventCall = eventPossibility <= completionProgress;
-
-        Debug.Log($"completionProgress:  {completionProgress} / eventPossibility: {eventPossibility}");
 
         if (isEventCall && !isEventCallPassed)
         {
