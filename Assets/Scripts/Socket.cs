@@ -54,7 +54,15 @@ public class Socket : MonoBehaviour
                     ConnectSocket(lineSocket.transform.position, lineSocket);
                 }
             }
-        
+            else
+            {
+                transform.localPosition = Vector2.zero;
+            }
+
+        }
+        else
+        {
+            transform.localPosition = Vector2.zero;
         }
     }
 
